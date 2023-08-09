@@ -1,4 +1,3 @@
-
 \documentclass[12pt]{article}
 \usepackage{amsmath}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
@@ -8,41 +7,47 @@
 \providecommand{\norm}[1]{\left\lVert#1\right\rVert}
 \let\vec\mathbf
 
-\title{Quadratic equations}
-\author{UPPADAJASWANTH(UPPADAJASWANTH@SRIPRAKASHSCHOOLS.COM)}
+\title{Quadratic-Equations}
+\author{UPPADAJASWANTH (UPPADAJASWANTH@SRIPRAKASHSCHOOLS.COM)}
+
+
 \begin{document}
+\maketitle
 \section*{10$^{th}$ Maths - Chapter 4}
 This is Problem-6(v) from Exercise 4.2\\
-A cottage industry produces a certain number of pottery articles in a day. It was observed
+\begin{enumerate}
+\item A cottage industry produces a certain number of pottery articles in a day. It was observed
 on a particular day that the cost of production of each article (in rupees) was 3 more than
 twice the number of articles produced on that day. If the total cost of production on that
-day was ` 90, find the number of articles produced and the cost of each article\\
-Given:
-Let the number of these articles produced in a day be = x.\\
-Cost of each article was 3 more than twice the number of articles
-produced that be = 3 + 2x\\
-total cost of the production = 90
-
-\solution\\
+day was 90, find the number of articles produced and the cost of each article\\
+\end{enumerate}
+\solution \\
 Given:
 Let the number of these articles produced in a day be = x.\\
 Cost of each article was 3 more than twice the number of articles
 produced that be = 3 + 2x\\
 total cost of the production = 90\\
 \begin{align}
-{(x)(2x + 3) = 90}\\=&
-{2x^2+3x=90}\\=&
-{2x^2+3x-90=0}\\=&
-{2x^2-12x+15x-90}\\=&
-{2x(x-6)+15(x-6)}\\=&
-{(2x+15)(x-6)}\\=&
-{x=\frac{-15}{2}}\\
-or\\
-{x=6}\\
-{3+2(6)=15}\\
+(x)(2x + 3) &= 90\\
+2x^2+3x-90&=0\\
 \end{align}
+Using formula method,first solution is:\\
+\begin{align}
+x_1 &= \frac{-b+\sqrt{b^2-4ac}}{2a}\\
+&= \frac{-(3)+\sqrt{(3)^2-4(2)(-90)}}{2(2)}\\
+&= \frac{-3+\sqrt{9+720}}{4}\\
+&= \frac{-3+\sqrt{729}}{4}\\
+&= \frac{-3+27}{4}\\
+&= \frac{24}{4}=6
+\end{align}
+the second solution is:\\
+\begin{align}
+x_2 &= \frac{-b-\sqrt{b^2-4ac}}{2a}\\
+&= \frac{-(3)-\sqrt{729}}{4}\\
+&= \frac{-30}{4}\\
+&= \frac{-15}{2}
+\end{align}
+
+Since the number of articles cannot be negative, the number of articles produced that day = 6\\
 Therefore, cost of each article = 15\\
-Number of articles produced that day = 6\\
-
-
 \end{document}
